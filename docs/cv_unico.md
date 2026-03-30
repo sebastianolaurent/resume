@@ -17,7 +17,7 @@ Senior Mobile Developer con 9+ anni di esperienza in sviluppo mobile native e cr
 - Coordinamento operativo di 5 sviluppatori, pianificazione task e gestione scadenze.
 - Mentoring tecnico e presidio quality gate (code review, testing, supporto rilascio).
 - Gestione supporto pubblicazione e rilascio su Google Play e App Store.
-- Contributo su funzionalità core: geolocalizzazione, notifiche real-time, integrazione pagamenti/in-app purchase.
+- Contributo su funzionalità core: integrazione pagamenti e qualità del rilascio in produzione.
 - Risultati: riduzione dei defect post-rilascio, lead time di delivery ridotto e release frequency incrementata.
 
 #### Engitel S.p.A. | Software Developer | 2017-2021
@@ -34,7 +34,7 @@ Senior Mobile Developer con 9+ anni di esperienza in sviluppo mobile native e cr
 - Impatto: oltre 2 milioni di utenti attivi; focus continuo su crash stability, startup time e qualità UX.
 
 ### Competenze
-- Mobile: Flutter, Dart, Xamarin, iOS, Android, Cross-Platform Development, End-to-End Mobile Delivery, In-App Purchase, Accessibility, Performance Optimization, Mobile Testing, Google Play & App Store Release Management, UI/UX Collaboration.
+- Mobile: Flutter, Dart, Xamarin, iOS, Android, Cross-Platform Development, End-to-End Mobile Delivery, Accessibility, Performance Optimization, Mobile Testing, Google Play & App Store Release Management, UI/UX Collaboration.
 - Backend/API: REST API Integration, C#, SQL, External Systems Integration, Mobile-Centric Full Stack Delivery.
 - Tooling/DevOps: Git, Azure DevOps, Google Cloud Console, Code Review, Testing.
 - Leadership/Delivery: Team Leadership, Mentoring, Delivery Management, Stakeholder Management, Scrum, Problem Solving.
@@ -77,7 +77,7 @@ Senior Mobile Developer with 9+ years of experience (since 2017) in native and c
 - Impact: 2M+ active users.
 
 ### Skills
-- Mobile: Flutter, Dart, Xamarin, iOS, Android, Cross-Platform Development, End-to-End Mobile Delivery, In-App Purchase, Accessibility, Performance Optimization, Mobile Testing, Google Play & App Store Release Management, UI/UX Collaboration.
+- Mobile: Flutter, Dart, Xamarin, iOS, Android, Cross-Platform Development, End-to-End Mobile Delivery, Accessibility, Performance Optimization, Mobile Testing, Google Play & App Store Release Management, UI/UX Collaboration.
 - Backend/API: REST API Integration, C#, SQL, External Systems Integration, Mobile-Centric Full Stack Delivery.
 - Tooling/Delivery: Git, Azure DevOps, Google Cloud Console, Code Review, Testing, Scrum, Team Leadership, Technical Mentoring, Stakeholder Management.
 - AI & Automation: operational usage of OpenAI, Anthropic, and Gemini for technical analysis, prototyping, refactoring, and repetitive workflow automation.
