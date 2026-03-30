@@ -91,8 +91,7 @@ const cvData = {
       "Google Play & App Store Release",
       "UI/UX Collaboration",
       "Sviluppo mobile end-to-end",
-      "Geolocalizzazione",
-      "Push notifications"
+      "In-App Purchase"
     ],
     backendSkillsLabel: "Competenze - backend e API",
     backendSkills: [
@@ -156,7 +155,7 @@ const cvData = {
     strengths: [
       "Technical leadership and end-to-end delivery: planning, execution, quality gates, and release support.",
       "Flutter engineering and backend/API integration in enterprise, multi-stakeholder environments.",
-      "Mobile feature delivery: geolocation, real-time push notifications, and payment integrations.",
+      "Mobile feature delivery with payment integrations and production-focused quality.",
       "Hands-on app publishing and release coordination for Google Play and App Store.",
       "Experience across smart mobility products, digital tourism, and IoT/home automation integrations.",
       "Faster development flows through a pragmatic, impact-driven approach focused on time-to-market."
@@ -237,8 +236,7 @@ const cvData = {
       "Google Play & App Store Release",
       "UI/UX Collaboration",
       "End-to-End Mobile Delivery",
-      "Geolocation",
-      "Push notifications"
+      "In-App Purchase"
     ],
     backendSkillsLabel: "Skills - backend/API",
     backendSkills: [
