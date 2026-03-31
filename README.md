@@ -21,6 +21,7 @@ Apri `http://localhost:8080`.
 1. Esegui commit e push sul repository.
 2. In GitHub vai su `Settings > Pages`.
 3. Seleziona branch e cartella di pubblicazione (`/`).
+4. URL pubblico: `https://sebastianolaurent.github.io/resume/`.
 
 ## File principali
 - `index.html`: struttura pagina e metadati.
