@@ -375,8 +375,12 @@ const ogDescription = document.querySelector('meta[property="og:description"]');
 const ogLocale = document.querySelector('meta[property="og:locale"]');
 const heroSection = document.querySelector(".hero");
 const profileFlip = document.getElementById("profile-flip");
-const systemDarkQuery = window.matchMedia("(prefers-color-scheme: dark)");
-const reducedMotionQuery = window.matchMedia("(prefers-reduced-motion: reduce)");
+const systemDarkQuery = typeof window.matchMedia === "function"
+  ? window.matchMedia("(prefers-color-scheme: dark)")
+  : { matches: false };
+const reducedMotionQuery = typeof window.matchMedia === "function"
+  ? window.matchMedia("(prefers-reduced-motion: reduce)")
+  : { matches: false };
 let impactObserver;
 let revealObserver;
 let aiTypingObserver;
@@ -908,10 +912,13 @@ function applyThemeMode(mode) {
   const normalizedMode = mode === "dark" || mode === "light" || mode === "auto" ? mode : "auto";
   currentThemeMode = normalizedMode;
   const isDark = normalizedMode === "dark" || (normalizedMode === "auto" && systemDarkQuery.matches);
+  const colorScheme = isDark ? "dark" : "light";
   document.documentElement.classList.toggle("dark-mode", isDark);
   document.documentElement.dataset.themeMode = normalizedMode;
+  document.documentElement.style.colorScheme = colorScheme;
   document.body.classList.toggle("dark-mode", isDark);
   document.body.dataset.themeMode = normalizedMode;
+  document.body.style.colorScheme = colorScheme;
   themeButtons.forEach((button) => {
     const active = button.dataset.theme === normalizedMode;
     button.classList.toggle("active", active);
@@ -1234,8 +1241,8 @@ if (profileFlip) {
 window.addEventListener("beforeprint", setPrintScale);
 window.addEventListener("afterprint", resetPrintScale);
 
-const printMedia = window.matchMedia("print");
-if (typeof printMedia.addEventListener === "function") {
+const printMedia = typeof window.matchMedia === "function" ? window.matchMedia("print") : null;
+if (printMedia && typeof printMedia.addEventListener === "function") {
   printMedia.addEventListener("change", (event) => {
     if (event.matches) {
       setPrintScale();
@@ -1243,7 +1250,7 @@ if (typeof printMedia.addEventListener === "function") {
       resetPrintScale();
     }
   });
-} else if (typeof printMedia.addListener === "function") {
+} else if (printMedia && typeof printMedia.addListener === "function") {
   printMedia.addListener((event) => {
     if (event.matches) {
       setPrintScale();
