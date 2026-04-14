@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
-    <meta name="theme-color" content="#deecff" />
+    <meta id="meta-theme-color" name="theme-color" content="#deecff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <title>Sebastiano Laurent | Senior Mobile Developer (iOS/Android/Flutter)</title>
@@ -31,6 +31,20 @@
       href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
+    <script>
+      (function () {
+        try {
+          var mode = localStorage.getItem("cv_theme_mode") || "auto";
+          var prefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+          var isDark = mode === "dark" || (mode !== "light" && prefersDark);
+          var color = isDark ? "#050a14" : "#deecff";
+          document.documentElement.classList.toggle("dark-mode", isDark);
+          document.documentElement.style.colorScheme = isDark ? "dark" : "light";
+          var meta = document.getElementById("meta-theme-color");
+          if (meta) meta.setAttribute("content", color);
+        } catch (_) {}
+      })();
+    </script>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
