@@ -373,6 +373,7 @@ const metaDescription = document.querySelector('meta[name="description"]');
 const ogTitle = document.querySelector('meta[property="og:title"]');
 const ogDescription = document.querySelector('meta[property="og:description"]');
 const ogLocale = document.querySelector('meta[property="og:locale"]');
+const themeColorMeta = document.querySelector('meta[name="theme-color"]');
 const heroSection = document.querySelector(".hero");
 const profileFlip = document.getElementById("profile-flip");
 const systemDarkQuery = typeof window.matchMedia === "function"
@@ -913,12 +914,16 @@ function applyThemeMode(mode) {
   currentThemeMode = normalizedMode;
   const isDark = normalizedMode === "dark" || (normalizedMode === "auto" && systemDarkQuery.matches);
   const colorScheme = isDark ? "dark" : "light";
+  const themeColor = isDark ? "#050a14" : "#deecff";
   document.documentElement.classList.toggle("dark-mode", isDark);
   document.documentElement.dataset.themeMode = normalizedMode;
   document.documentElement.style.colorScheme = colorScheme;
   document.body.classList.toggle("dark-mode", isDark);
   document.body.dataset.themeMode = normalizedMode;
   document.body.style.colorScheme = colorScheme;
+  if (themeColorMeta) {
+    themeColorMeta.setAttribute("content", themeColor);
+  }
   themeButtons.forEach((button) => {
     const active = button.dataset.theme === normalizedMode;
     button.classList.toggle("active", active);

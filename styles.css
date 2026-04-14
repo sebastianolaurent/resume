@@ -38,6 +38,12 @@
 
 html {
   font-size: calc(100% * var(--a11y-text-zoom));
+  min-height: 100%;
+  background-color: #deecff;
+}
+
+html.dark-mode {
+  background-color: #02060c;
 }
 
 .sr-only {
@@ -92,10 +98,12 @@ html.dark-mode button:focus-visible {
 body {
   margin: 0;
   min-height: 100vh;
+  min-height: 100dvh;
   font-family: Sora, sans-serif;
   color: var(--text);
   position: relative;
   overflow-x: hidden;
+  padding-bottom: env(safe-area-inset-bottom);
   background:
     radial-gradient(circle at 14% 14%, var(--bg-light-a) 0%, transparent 54%),
     radial-gradient(circle at 86% 0%, var(--bg-light-b) 0%, transparent 50%),
@@ -213,7 +221,7 @@ html.performance-mode .hero::after {
   right: 0;
   z-index: 30;
   width: 100%;
-  padding: 0.6rem 0;
+  padding: calc(0.6rem + env(safe-area-inset-top)) 0 0.6rem;
   background: rgba(238, 244, 255, 0.58);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid rgba(16, 33, 54, 0.08);
@@ -772,7 +780,7 @@ li {
 .footer-bar {
   position: static;
   margin-top: 0.4rem;
-  padding: 0.7rem 0 1rem;
+  padding: 0.7rem 0 calc(1rem + env(safe-area-inset-bottom));
   background: transparent;
   border-top: 1px solid rgba(16, 33, 54, 0.12);
 }
@@ -911,7 +919,7 @@ body.dark-mode .footer-btn.active {
 .a11y-dock {
   position: fixed;
   right: clamp(0.55rem, 1.8vw, 1.15rem);
-  bottom: clamp(0.55rem, 1.8vw, 1.15rem);
+  bottom: calc(clamp(0.55rem, 1.8vw, 1.15rem) + env(safe-area-inset-bottom));
   z-index: 32;
   display: grid;
   gap: 0.45rem;
