@@ -5,12 +5,12 @@ const cvData = {
     location: "Milano, Italia",
     title: "Senior Mobile Developer (iOS/Android/Flutter) | Backend Integration (C#/SQL/REST)",
     summary:
-      "Senior mobile developer con oltre 9 anni di esperienza (dal 2017) nello sviluppo mobile native e cross-platform. Progressione da Software Developer a Team Leader in Engitel S.p.A., con focus su Flutter, integrazione REST API (C#/SQL), delivery end-to-end, rilascio su Google Play/App Store e contributi UI/UX.",
+      "Senior mobile developer con oltre 9 anni di esperienza (dal 2017) nello sviluppo mobile nativo e cross-platform. Progressione da Software Developer a Team Leader in Engitel S.p.A., con focus su Flutter, integrazione REST API (C#/SQL), delivery end-to-end, rilascio su Google Play/App Store e contributi UI/UX.",
     strengthsLabel: "Punti di forza",
     strengths: [
       "Leadership tecnica e delivery end-to-end: pianificazione, esecuzione, quality gate e rilascio.",
       "Flutter engineering e integrazione backend/API in contesti enterprise multi-stakeholder.",
-      "Implementazione funzionalita mobile: geolocalizzazione, notifiche push real-time, integrazione pagamenti.",
+      "Implementazione funzionalità mobile: geolocalizzazione, notifiche push real-time, integrazione pagamenti.",
       "Esperienza nel rilascio di applicazioni su Google Play e App Store.",
       "Esperienza su prodotti digitali in ambito smart mobility, turismo digitale e integrazione con sistemi IoT/domotica.",
       "Accelerazione dei flussi di sviluppo con approccio pragmatico orientato a impatto e time-to-market."
@@ -37,7 +37,7 @@ const cvData = {
       },
       {
         value: "Focus continuo",
-        text: "Qualita del rilascio, stabilita applicativa e KPI tecnici monitorati costantemente."
+        text: "Qualità del rilascio, stabilità applicativa e KPI tecnici monitorati costantemente."
       }
     ],
     experienceLabel: "Esperienza professionale",
@@ -48,7 +48,7 @@ const cvData = {
         impact: "Ownership tecnica e organizzativa su delivery mobile multi-stakeholder.",
         bullets: [
           "Guida tecnica dello sviluppo cross-platform con Flutter.",
-          "Coordinamento di un team di 5 sviluppatori su priorita e pianificazione.",
+          "Coordinamento di un team di 5 sviluppatori su priorità e pianificazione.",
           "Integrazione backend tramite REST API (C#, SQL).",
           "Mentoring tecnico del team e supporto a code review, testing e quality gate pre-rilascio."
         ]
@@ -69,15 +69,15 @@ const cvData = {
     project: {
       role: "App ufficiale ATM Milano | Full Stack Developer",
       period: "2018-2024",
-      impact: "Prodotto digitale ad ampia adozione e canale centrale per la mobilita urbana.",
+      impact: "Prodotto digitale ad ampia adozione e canale centrale per la mobilità urbana.",
       referenceLabel: "Approfondimento (LinkedIn)",
       referenceUrl:
         "https://www.linkedin.com/posts/sebastianolaurent_dal-gennaio-2018-ho-intrapreso-un-viaggio-activity-7274169972212326400-lyAg",
       bullets: [
         "Rifacimento grafico e funzionale dell'app con Flutter, dalla UI alla logica backend.",
         "Integrazione sistemi esterni: titoli viaggio, pagamenti, mappe, route planning.",
-        "Focus specifico su accessibilita e usabilita.",
-        "Implementazione componenti orientati a scalabilita e sicurezza.",
+        "Focus specifico su accessibilità e usabilità.",
+        "Implementazione componenti orientati a scalabilità e sicurezza.",
         "Ottimizzazione performance su dispositivi mid-range."
       ]
     },
@@ -113,7 +113,7 @@ const cvData = {
     aiSkills: [
       "Adozione operativa di strumenti AI per accelerare analisi tecnica, prototipazione, refactoring e automazione task ripetitivi",
       "Uso quotidiano dell'AI con approccio engineering-first: revisione critica degli output e validazione tecnica",
-      "Integrazione controllata dell'AI nel ciclo di sviluppo per migliorare qualita del codice e time-to-delivery",
+      "Integrazione controllata dell'AI nel ciclo di sviluppo per migliorare qualità del codice e time-to-delivery",
       "Strumenti principali: OpenAI, Anthropic, Gemini"
     ],
     leadershipSkillsLabel: "Competenze - leadership e delivery",
@@ -143,19 +143,19 @@ const cvData = {
     footerLangIt: "Italiano",
     footerLangEn: "Inglese",
     skipToContent: "Salta al contenuto principale",
-    a11yToggleLabel: "Accessibilita WCAG 2.2",
-    a11yPanelTitle: "Accessibilita",
+    a11yToggleLabel: "Accessibilità WCAG 2.2",
+    a11yPanelTitle: "Accessibilità",
     a11yTextSizeLabel: "Testo grande",
     a11yTextZoomLabel: "Zoom testo",
     a11yContrastLabel: "Contrasto elevato",
     a11yMotionLabel: "Riduci movimento",
-    a11yReadingLabel: "Modalita lettura",
+    a11yReadingLabel: "Modalità lettura",
     a11yLinksLabel: "Sottolinea link",
     a11yResetLabel: "Ripristina preferenze",
     a11yStateOn: "Attivo",
     a11yStateOff: "Disattivo",
-    a11yResetDone: "Preferenze accessibilita ripristinate",
-    printBlockedTitle: "Questa pagina e fatta per essere vissuta",
+    a11yResetDone: "Preferenze accessibilità ripristinate",
+    printBlockedTitle: "Questa pagina è fatta per essere vissuta",
     printBlockedCopy: "Stampandola perderai animazioni, colori e dettagli visivi pensati per il digitale. Se vuoi, posso inviarti una versione PDF dedicata.",
     printBlockedNotice: "La stampa riduce colori e animazioni: meglio visualizzarla online."
   },
@@ -165,7 +165,7 @@ const cvData = {
     location: "Milan, Italy",
     title: "Senior Mobile Developer (iOS/Android/Flutter) | Backend Integration (C#/SQL/REST)",
     summary:
-      "Senior mobile developer with 9+ years of experience (since 2017) across native and cross-platform development. Progressed from Software Developer to Team Leader at Engitel S.p.A., with focus on Flutter engineering, REST API integration (C#/SQL), end-to-end delivery, Google Play/App Store releases, and UI/UX collaboration.",
+      "Senior mobile developer with 9+ years of experience (since 2017) across native and cross-platform development. Progressed from Software Developer to Team Leader at Engitel S.p.A., with a focus on Flutter engineering, REST API integration (C#/SQL), end-to-end delivery, Google Play/App Store releases, and UI/UX collaboration.",
     strengthsLabel: "Core strengths",
     strengths: [
       "Technical leadership and end-to-end delivery: planning, execution, quality gates, and release support.",
@@ -181,13 +181,13 @@ const cvData = {
         value: "2M+ users",
         countTo: 2,
         suffix: "M+",
-        text: "Contributor to ATM Milan project reaching more than 2 million active users."
+        text: "Contributor to the ATM Milano project, which reached more than 2 million active users."
       },
       {
         value: "5 developers",
         countTo: 5,
         suffix: " dev",
-        text: "Technical-operational coordination of mobile team planning and delivery."
+        text: "Technical and operational coordination of mobile team planning and delivery."
       },
       {
         value: "9+ years",
@@ -227,7 +227,7 @@ const cvData = {
     ],
     projectLabel: "Highlighted project",
     project: {
-      role: "ATM Milan Official App | Full Stack Developer",
+      role: "ATM Milano Official App | Full Stack Developer",
       period: "2018-2024",
       impact: "High-adoption digital product and key urban mobility service.",
       referenceLabel: "More context (LinkedIn)",
@@ -271,7 +271,7 @@ const cvData = {
     ],
     aiSkillsLabel: "AI and automation",
     aiSkills: [
-      "Operational adoption of AI tools to accelerate technical analysis, prototyping, refactoring, and repetitive task automation",
+      "Operational use of AI tools to accelerate technical analysis, prototyping, refactoring, and repetitive task automation",
       "Daily AI usage with an engineering-first approach: critical review of outputs and technical validation",
       "Controlled AI integration into the development lifecycle to improve code quality and time-to-delivery",
       "Primary tools: OpenAI, Anthropic, Gemini"
@@ -1039,7 +1039,7 @@ function renderCv(lang) {
     titleTag.textContent = "Sebastiano Laurent | Senior Mobile Developer (iOS/Android/Flutter)";
     metaDescription.setAttribute(
       "content",
-      "CV professionale di Sebastiano Laurent: Senior Mobile Developer (iOS/Android/Flutter) e Mobile Team Leader con esperienza su delivery end-to-end, integrazione API/backend e funzionalita mobile avanzate."
+      "CV professionale di Sebastiano Laurent: Senior Mobile Developer (iOS/Android/Flutter) e Mobile Team Leader con esperienza su delivery end-to-end, integrazione API/backend e funzionalità mobile avanzate."
     );
     ogTitle.setAttribute(
       "content",

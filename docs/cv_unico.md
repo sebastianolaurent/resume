@@ -9,14 +9,14 @@ Senior Mobile Developer (iOS/Android/Flutter) | Mobile Team Leader | Backend Int
 Milano, Italia | +39 338 1001070 | sebastiano.laurent@outlook.com | linkedin.com/in/sebastianolaurent
 
 ### Executive Summary
-Senior Mobile Developer con 9+ anni di esperienza in sviluppo mobile native e cross-platform e delivery di prodotti digitali. Progressione da Software Developer a Team Leader, con coordinamento di team (5 sviluppatori), mentoring tecnico e gestione stakeholder tecnico-business. Competenze core in Flutter, integrazione REST API (C#, SQL), code review, testing, qualità del rilascio, pubblicazione su Google Play/App Store e collaborazione UI/UX. Contributo a prodotto ad ampia adozione: app ATM Milano con oltre 2 milioni di utenti attivi.
+Senior Mobile Developer con 9+ anni di esperienza in sviluppo mobile nativo e cross-platform e delivery di prodotti digitali. Progressione da Software Developer a Team Leader, con coordinamento di team (5 sviluppatori), mentoring tecnico e gestione stakeholder tecnico-business. Competenze core in Flutter, integrazione REST API (C#, SQL), code review, testing, qualità del rilascio, pubblicazione su Google Play/App Store e collaborazione UI/UX. Contributo a prodotto ad ampia adozione: app ATM Milano con oltre 2 milioni di utenti attivi.
 
 ### Esperienza Professionale
 #### Engitel S.p.A. | Team Leader | 2021-Oggi
 - Guida tecnica dello sviluppo mobile con Flutter e integrazione backend via REST API (C#, SQL).
 - Coordinamento operativo di 5 sviluppatori, pianificazione task e gestione scadenze.
 - Mentoring tecnico e presidio quality gate (code review, testing, supporto rilascio).
-- Gestione supporto pubblicazione e rilascio su Google Play e App Store.
+- Gestione del supporto alla pubblicazione e al rilascio su Google Play e App Store.
 - Contributo su funzionalità core: integrazione pagamenti e qualità del rilascio in produzione.
 - Risultati: riduzione dei defect post-rilascio, lead time di delivery ridotto e release frequency incrementata.
 
@@ -40,7 +40,7 @@ Senior Mobile Developer con 9+ anni di esperienza in sviluppo mobile native e cr
 - Leadership/Delivery: Team Leadership, Mentoring, Delivery Management, Stakeholder Management, Scrum, Problem Solving.
 - AI & Automazione: utilizzo operativo di OpenAI, Anthropic, Gemini per analisi tecnica, prototipazione, refactoring e automazione task ripetitivi.
 
-### Formazione E Lingue
+### Formazione e lingue
 - Formazione: Diploma di Perito Informatico, I.I.S "Curie – Sraffa" – Milano (2012-2017).
 - Lingue: Italiano (C2 - Madrelingua), Inglese (B2 - Utente indipendente).
 
@@ -53,7 +53,7 @@ Senior Mobile Developer (iOS/Android/Flutter) | Mobile Team Leader | Backend/API
 Milan, Italy | +39 338 1001070 | sebastiano.laurent@outlook.com | linkedin.com/in/sebastianolaurent
 
 ### Professional Summary
-Senior Mobile Developer with 9+ years of experience (since 2017) in native and cross-platform development, enterprise delivery, and technical team leadership. Progressed from Software Developer to Team Leader at Engitel S.p.A., coordinating a 5-developer mobile team and driving quality-focused releases. Strong hands-on expertise in Flutter, REST API integration, Google Play/App Store release workflows, and UI/UX collaboration. Contributor to the ATM Milan app with 2M+ active users.
+Senior Mobile Developer with 9+ years of experience (since 2017) in native and cross-platform development, enterprise delivery, and technical team leadership. Progressed from Software Developer to Team Leader at Engitel S.p.A., coordinating a 5-developer mobile team and driving quality-focused releases. Strong hands-on expertise in Flutter, REST API integration, Google Play/App Store release workflows, and UI/UX collaboration. Contributor to the ATM Milano app with 2M+ active users.
 
 ### Professional Experience
 #### Engitel S.p.A. | Team Leader | 2021-Present
@@ -69,7 +69,7 @@ Senior Mobile Developer with 9+ years of experience (since 2017) in native and c
 - Worked with clients and stakeholders on functional analysis and delivery progress.
 
 ### Highlighted Project
-#### ATM Milan Official App | Full Stack Developer (Mobile-Centric) | 2018-2024
+#### ATM Milano Official App | Full Stack Developer (Mobile-Centric) | 2018-2024
 - Delivered major visual and functional revamp using Flutter.
 - Integrated ticketing, payments, maps, and route planning systems.
 - Contributed to accessibility and usability improvements.
@@ -80,9 +80,9 @@ Senior Mobile Developer with 9+ years of experience (since 2017) in native and c
 - Mobile: Flutter, Dart, Xamarin, iOS, Android, Cross-Platform Development, End-to-End Mobile Delivery, Accessibility, Performance Optimization, Mobile Testing, Google Play & App Store Release Management, UI/UX Collaboration.
 - Backend/API: REST API Integration, C#, SQL, External Systems Integration, Mobile-Centric Full Stack Delivery.
 - Tooling/Delivery: Git, Azure DevOps, Google Cloud Console, Code Review, Testing, Scrum, Team Leadership, Technical Mentoring, Stakeholder Management.
-- AI & Automation: operational usage of OpenAI, Anthropic, and Gemini for technical analysis, prototyping, refactoring, and repetitive workflow automation.
+- AI & Automation: operational use of OpenAI, Anthropic, and Gemini for technical analysis, prototyping, refactoring, and repetitive workflow automation.
 
-### Education And Languages
+### Education and Languages
 - Education: IT Technical Diploma (Perito Informatico), IS Curie Sraffa, Milan (2012-2017).
 - Languages: Italian (C2 - Native), English (B2 - Independent User).
 
